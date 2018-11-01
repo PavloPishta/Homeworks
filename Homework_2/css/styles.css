@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+/* HEADING */
+.visually-hidden {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden;
+}
+
+
+/* NAVIGATION */
+.page-nav{
+    padding:75px 0px 100px 0px;
+    
+}
+
+
+
+.site-navigation{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.site-navigation li {
+
+    display: inline-block;
+    margin-right: 110px;
+}
+.site-navigation li a{
+    font-family: 'Playfair Display', serif;
+	color:#686868;
+	text-decoration: none;
+}
+  
+
+.site-navigation li:last-child {
+    margin-right: 0;
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color:  #00f ;
+    
+}
+
+/* MAIN */
+
+.container{
+    margin: 0 auto;
+
+    width: 900px;
+}
+.features{
+    margin:0 auto;
+    margin-bottom: 72px;
+    
+}
+
+
+.features-list{
+    
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.features-list-item{
+    display: inline-block;
+    font-size: 14px;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 130px;
+}
+.features-list-item:nth-child(2n){
+    margin-right: 0;
+}
+
+.features-list-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+}
+img {
+    display: block;
+    width: 420px;
+    height: 280px;
+    margin-bottom: 30px; 
+}
+
+
+.features-list-image{
+
+    width: 420px;
+    height: 275px;
+}
+.features-list-name{
+    font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:lighter;
+	color:#686868;
+	margin-top: 0px;
+	margin-bottom: 30px;
+    
+}
+.features-list-about {
+
+    font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	color:#686868;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.features-list-title{
+    
+    font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	color:#686868;
+	margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+/* FOOTER */
+.page-footer {
+    padding: 30px;
+   margin: 60px auto;
+ text-align: center;
+}
+
+
+.load-button {
+    padding: 0;
+	margin: 0;
+	min-width: 166px;
+	min-height: 60px;
+	background-color:#fff;
+	border:1px solid #111;
+	color:#686868;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+.load-button:hover {
+    color:#00f;
+	cursor: pointer;
+}
+
